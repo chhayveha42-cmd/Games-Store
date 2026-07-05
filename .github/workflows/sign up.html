@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+    .name{
+            font-size: 20px;
+            color: blue;
+            align-items: center;
+            text-align: center;
+        }
+        .sign-in{
+            text-align: center;
+            border-radius: 5%;
+        }
+        .product_card{
+            border-radius: 5%;
+        }
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    margin:10px 10px 10px 20px ;
+}
+
+.login-box{
+    width:350px;
+    background:#fff;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    text-align:center;
+    align-items: center;
+}
+
+.login-box h2{
+    margin-bottom:25px;
+    color:#333;
+}
+
+.login-box input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.login-box input:focus{
+    outline:none;
+    border-color:#4facfe;
+}
+
+.login-box button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:8px;
+    background:#4facfe;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-box button:hover{
+    background:#2f80ed;
+}
+
+.login-box p{
+    margin-top:20px;
+    font-size:14px;
+}
+
+.login-box a{
+    text-decoration:none;
+    color:#4facfe;
+}
+.or{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.account{
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    
+}
+
+    </style>
+</head>
+<body class="login-box">
+    <div class="sign-in">
+        <div class="name">
+        GAME STORE
+    </div>
+    <form  class="product_card">
+        <input type="text" name="" id="" placeholder="Firstname"><br>
+        <input type="text" name="" id="" placeholder="Surname"><br>
+        <input type="email" name="" id="" placeholder="Gmail "><br>
+        <input type="password" name="" id="" placeholder="password"> <br>
+       <a href="/Bootstrap/About.html"><button class="btn btn-primary" type="submit">sign up</button></a><br>
+        <p class="or">OR</p><br>
+        <div class="account">
+            Do you have an account ?  <a href="/Bootstrap/sign in.html">Sign in</a>
+        </div>
+        <a href="/Bootstrap/About.html">Back</a>
+    
+    
+    </form>
+    </div>
+</body>
+</html>
